@@ -221,7 +221,7 @@ export default function ThereminRecordings() {
           <div className="py-4">
             <audio ref={audioRef} controls className="w-full">
               {/* Bind the presigned URL to the src */}
-              <source src={presignedUrl ?? undefined} type="audio/mpeg" />
+              <source src={presignedUrl ?? undefined} type="audio/wav" />
               Your browser does not support the audio element.
             </audio>
           </div>
